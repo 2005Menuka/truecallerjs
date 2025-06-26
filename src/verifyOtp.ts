@@ -61,7 +61,7 @@ async function verifyOtp(
       "user-agent": "Truecaller/11.75.5 (Android;10)",
       clientsecret: "lvc22mp3l1sfv6ujg83rd17btt",
     },
-    url: "https://account-asia-south1.truecaller.com/v1/verifyOnboardingOtp",
+    url: "https://asia-south1-truecaller-web.cloudfunctions.net/webapi/noneu/auth/truecaller/v1/send-otp",
     data: postData,
   };
 
