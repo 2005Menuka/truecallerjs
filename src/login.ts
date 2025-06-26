@@ -61,7 +61,7 @@ async function login(phoneNumber: string): Promise<LoginResponse> {
   }
 
   const postUrl =
-    "https://account-asia-south1.truecaller.com/v2/sendOnboardingOtp";
+    "https://asia-south1-truecaller-web.cloudfunctions.net/webapi/noneu/auth/truecaller/v1/send-otp";
 
   const data = {
     countryCode: pn.regionCode,
